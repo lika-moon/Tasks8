@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style8.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+
+        <div class="home-work">
+
+            <h3>1. Создание списка дел</h3>
+            <input type="text" id="taskInput" placeholder="Введите дело...">
+            <button id="addTaskBtn">Добавить дело</button>
+            <ul id="taskList"></ul>
+
+            <div class="templait-online"></div>
+            <template id="taskTemplate">
+                <div class="user">
+                    <li class="liTamplate">
+                        <span class="taskText"></span>
+                        <button class="deleteTaskBtn">Удалить</button>
+                    </li>
+                </div>
+
+            </template>
+
+            <h3>2. Карточки продуктов в интернет-магазине</h3>
+
+            <div id="productContainer"></div>
+
+            <template id="productTemplate">
+                <div class="productCard">
+                    <img class="productImage" src="" alt="Product Image">
+                    <h3 class="productName"></h3>
+                    <p class="productPrice"></p>
+                    <p class="productDescription"></p>
+                </div>
+            </template>
+
+            <h3>3. Форма регистрации с динамическим добавлением полей</h3>
+            <form id="registrationForm">
+                <button type="button" id="addFieldBtn">Добавить еще поле</button>
+                <input type="submit" value="Зарегистрироваться">
+            </form>
+
+            <div class="inputTemplate-online"></div>
+            <template id="inputTemplate">
+                <div class="inputConteiner">
+                    <input class="inputTempl" type="text" placeholder="информация о себе">
+                </div>
+            </template>
+
+            <h3>5.Система комментариев для блога</h3>
+            <div id="comments"></div>
+            <input type="text" id="commentInput" placeholder="Напишите комментарий...">
+            <button id="submitComment">Отправить</button>
+
+            <div class="online-commentTempl"></div>
+            <template id="commentTemplate">
+                <div class="comment">
+                    <p class="commentText"></p>
+                </div>
+            </template>
+
+            <p> 4.Галерея изображений с модальным окном</p>
+
+            <div id="gallery"></div>
+
+            <template id="imageTemplate">
+                <img class="galleryImage" src="" alt="Gallery Image">
+            </template>
+
+            <div id="modal" style="display:none;">
+                <img id="modalImage" src="" alt="Modal Image">
+            </div>
+        </div>
+
+        <script src="./script8clean.js"></script>
+    </div>
+</body>
+
+</html>
