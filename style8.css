@@ -1,0 +1,55 @@
+.page {
+  width: 1280px;
+  height: 790px;
+  background-image: url(./img/bgi.jpg);
+}
+
+.home-work {
+  margin-left: 35px;
+}
+
+#productContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.productImage {
+  width: 180px;
+  height: 180px;
+}
+
+#gallery {
+  gap: 20px;
+  display: flex;
+}
+
+.galleryImage {
+  width: 120px;
+  height: 120px;
+  border: 1px;
+  border-radius: 15px;
+}
+
+#modalImage {
+  border: 1px solid #888;
+  border-radius: 15px;
+  width: 50%;
+  height: 500px;
+  background-color: #fefefe;
+  padding: 20px;
+}
+
+#modal {
+  display: flex;
+  background-color: rgba(30, 27, 27, 0.7);
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  margin-bottom: 0;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  height: 810px;
+  width: 1280px;
+}
